@@ -416,7 +416,7 @@ class Player {
 
     draw (ctx, scale) {
         // game has ended
-        if (!this.alive) this.endSprites.drawSprite(2, ctx, this.x, this.y, scale);
+        if (!this.alive) this.endSprites.drawSprite(3, ctx, this.x, this.y, scale);
         else if(gameEngine.victory) this.endSprites.drawSprite(1, ctx, this.x, this.y, scale);
         // Game is still going 
         else this.animations[this.state][this.facing].animate(gameEngine.clockTick, ctx, this.x, this.y, scale, this.pain.hurting, this.hitstop.hitting);
