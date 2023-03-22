@@ -1,6 +1,6 @@
 class Player {
     
-    static MAX_HP = 10;
+    static MAX_HP = 100;
     static MAX_VEL = 250; //Pixels per second (I think -Gabe)
     static KB_DUR = 0.1;
     static KB_STR = 300;
